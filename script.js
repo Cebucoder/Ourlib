@@ -38,3 +38,9 @@ if (libIframe.length > 0) {
 //     var fullUrl = baseUrl + relativePath;
 //     link.setAttribute('href', fullUrl);
 // });
+
+
+$(function () {
+    $(".open-outline").tooltip();
+    $(".code-download-outline").tooltip();
+});
