@@ -102,7 +102,9 @@ a {
     transition: all 0.3s ease;
 }
 
-.main_con {}
+.main_con {
+    min-height: 100vh;
+}
 
 .main_content {
     margin: 100px 0;
