@@ -24,7 +24,7 @@ if (libIframe.length > 0) {
 
 
 
-var baseUrl = window.location.origin;
+var baseUrl = window.location.href;
 document.querySelectorAll('.dynamic-link').forEach(function (iframe) {
 
     var relativePath1 = iframe.getAttribute('data-path');
