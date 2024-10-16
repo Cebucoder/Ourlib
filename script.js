@@ -24,17 +24,17 @@ if (libIframe.length > 0) {
 
 
 
-var baseUrl = window.location.origin;
-document.querySelectorAll('.dynamic-link').forEach(function (iframe) {
+// var baseUrl = window.location.origin;
+// document.querySelectorAll('.dynamic-link').forEach(function (iframe) {
 
-    var relativePath1 = iframe.getAttribute('data-path');
-    var fullUrlI = baseUrl + relativePath1;
-    iframe.setAttribute('src', fullUrlI);
-});
+//     var relativePath1 = iframe.getAttribute('data-path');
+//     var fullUrlI = baseUrl + relativePath1;
+//     iframe.setAttribute('src', fullUrlI);
+// });
 
 
-document.querySelectorAll('.dynamic-link').forEach(function (link) {
-    var relativePath = link.getAttribute('data-path');
-    var fullUrl = baseUrl + relativePath;
-    link.setAttribute('href', fullUrl);
-});
+// document.querySelectorAll('.dynamic-link').forEach(function (link) {
+//     var relativePath = link.getAttribute('data-path');
+//     var fullUrl = baseUrl + relativePath;
+//     link.setAttribute('href', fullUrl);
+// });
