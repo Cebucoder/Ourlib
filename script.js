@@ -11,6 +11,8 @@ $(document).ready(function () {
         $("ul li").removeClass("active");
         $(this).parent().addClass("active");
         $('.nav_link_con').removeClass('toggle_nav_con');
+        $('body').removeClass('fixed_body');
+
     });
 });
 
@@ -57,11 +59,13 @@ $(window).resize(function () {
     window_width = $(this).width();
     if (window_width >= 1000) {
         $('.nav_link_con').removeClass('toggle_nav_con');
+        $('body').removeClass('fixed_body');
     }
 });
 
 $('.menu_bar').click(function () {
     $('.nav_link_con').toggleClass('toggle_nav_con');
+    $('body').toggleClass('fixed_body');
 
 });
 
