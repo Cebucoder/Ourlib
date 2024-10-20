@@ -85,7 +85,8 @@ $(document).ready(function () {
         '.prev_con.buttons',
         '.prev_con.text',
         '.prev_con.images',
-        '.prev_con.footer'
+        '.prev_con.footer',
+        '.prev_con.gsap'
     ];
 
     // Loop through each main container

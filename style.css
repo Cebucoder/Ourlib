@@ -175,7 +175,7 @@ a {
 }
 
 .code_viewer_header span a:hover {
-    background: #FAF9F6;
+    background: #faf9f61a;
     color: #E1306C;
 }
 
